@@ -1,6 +1,10 @@
 #!/usr/bin/python
 
+
 n = int(raw_input("How much to do fibonacci?"))
+if(n<1):
+    print "It should be bigger than 1"
+    exit(1)
 
 prev = 0
 new_sum = 1
